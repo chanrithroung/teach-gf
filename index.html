@@ -7,18 +7,60 @@
 </head>
 <body>
 
-    <video id="video" muted>
-        <source src="downloaded39_video.mp4">
-        Autu Play 
-    </video>
+    <table border="" cellspacing="0" width="500px">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Data of brith</th>
+                <th>Profile</th>
+                <th>Action</th>
+            </tr>    
+        </thead>
+        
+        <tbody>
+            <tr align="center">
+                <td>#01</td>
+                <td>Socheata</td>
+                <td>Female</td>
+                <td>15/01/2006</td>
+                <td>
+                    <img width="60px" src="your.img" alt="">
+                </td>
+                <td>
+                    <button>Edit</button>
+                    <button>Save</button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>#01</td>
+                <td>Socheata</td>
+                <td>Female</td>
+                <td>15/01/2006</td>
+                <td>
+                    <img width="60px" src="your.img" alt="">
+                </td>
+                <td>
+                    <button>Edit</button>
+                    <button>Save</button>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>ID</td>
+                <td>name</td>
+                <td>gender</td>
+                <td>Data of brith</td>
+                <td>profile</td>
+                <td>action</td>
+            </tr>
+        </tfoot>
+
+    </table>
     
 </body>
-<script>
-    const video = document.getElementById('video');
-    video.addEventListener('mouseover', ()=> {
-        video.play();
-    })
-</script>
-
-
 </html>
